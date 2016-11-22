@@ -15,6 +15,7 @@
 		658403D51DE481DF002B1C60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 658403D31DE481DF002B1C60 /* LaunchScreen.storyboard */; };
 		658403E01DE481DF002B1C60 /* ZYCornerViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 658403DF1DE481DF002B1C60 /* ZYCornerViewDemoTests.m */; };
 		658403EB1DE481DF002B1C60 /* ZYCornerViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 658403EA1DE481DF002B1C60 /* ZYCornerViewDemoUITests.m */; };
+		658403FE1DE4866E002B1C60 /* ZYCornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 658403FD1DE4866E002B1C60 /* ZYCornerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		658403E61DE481DF002B1C60 /* ZYCornerViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYCornerViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		658403EA1DE481DF002B1C60 /* ZYCornerViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYCornerViewDemoUITests.m; sourceTree = "<group>"; };
 		658403EC1DE481DF002B1C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		658403FC1DE4866E002B1C60 /* ZYCornerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCornerView.h; sourceTree = "<group>"; };
+		658403FD1DE4866E002B1C60 /* ZYCornerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCornerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		658403C41DE481DF002B1C60 /* ZYCornerViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				658403FC1DE4866E002B1C60 /* ZYCornerView.h */,
+				658403FD1DE4866E002B1C60 /* ZYCornerView.m */,
 				658403C81DE481DF002B1C60 /* AppDelegate.h */,
 				658403C91DE481DF002B1C60 /* AppDelegate.m */,
 				658403CB1DE481DF002B1C60 /* ViewController.h */,
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				658403FE1DE4866E002B1C60 /* ZYCornerView.m in Sources */,
 				658403CD1DE481DF002B1C60 /* ViewController.m in Sources */,
 				658403CA1DE481DF002B1C60 /* AppDelegate.m in Sources */,
 				658403C71DE481DF002B1C60 /* main.m in Sources */,
@@ -429,6 +435,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HEWU778C2D;
 				INFOPLIST_FILE = ZYCornerViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yanyinghenmei.ZYCornerViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +448,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HEWU778C2D;
 				INFOPLIST_FILE = ZYCornerViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yanyinghenmei.ZYCornerViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
